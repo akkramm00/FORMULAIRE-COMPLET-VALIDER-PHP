@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['pseudo']) && isset($_POST['password']) && isset($_POST['pseudo']) && isset($_POST['email'])  && isset($_POST['password'])  && isset($_POST['description'])  && isset($_POST['services'])  && isset($_POST['address']) && isset($_POST['city'])  && isset($_POST['street'])) {
+if(isset($_POST['genre']) && isset($_POST['pseudo']) && isset($_POST['email'])  && isset($_POST['password'])  && isset($_POST['description'])  && isset($_POST['services'])  && isset($_POST['address']) && isset($_POST['city'])  && isset($_POST['street'])) {
   $genre = $_POST["genre"];
   $pseudo = $_POST["pseudo"];
   $email = $_POST["email"];
